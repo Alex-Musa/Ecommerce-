@@ -12,7 +12,8 @@ require('dotenv').config({
 
 // MONGODB
 const connectDB = require('./config/db')
-connectDB()
+
+// connectDB()
 
 app.use(morgan('dev'))
 app.use(cors())
